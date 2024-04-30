@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan Work Opportunities</title>
+    <script src="https://kit.fontawesome.com/cb2f9d3842.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--header starts-->
+    <header class="header">
+        <section class="flex">
+
+            <div id="menu-btn" class="fa-solid fa-bars">
+                
+            </div>
+
+            <a href="#" class="logo"> <i class="fa-solid fa-briefcase"></i>Next Work Stop</a>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="alljobs.html">Jobs</a>
+                <a href="contact.html">Contact Us</a>          
+            </nav>
+
+            <a href="login.html" class="btn" style="margin-top: 0;"> Login / Register</a>
+
+        </section>
+    </header>
+
+    <!--header ends-->
+
+    <!--job filter starts-->
+
+    <section class="job-filter">
+        <h1 class="heading">filter jobs</h1>
+        <form action="" method="post">
+            <div class="flex">
+                <div class="box">
+                    <p>job title <span>*</span> </p>
+                    <input type="text" name="title" class="input" placeholder="search company/role">
+                </div>
+                <div class="box">
+                    <p>job location </p>
+                    <input type="text" name="title" class="input" placeholder="search location">
+                </div>
+            </div>
+
+            <div class="dropdown-container">
+                <div class="dropdown">
+                    <input type="text" readonly class="output" placeholder="date posted" name="date" maxlength="20">
+                    <div class="lists">
+                        <p class="items">today</p>
+                        <p class="items">3 days ago</p>
+                        <p class="items">7 days ago</p>
+                        <p class="items">10 days ago</p>
+                        <p class="items">15 days ago</p>
+                        <p class="items">30 days ago</p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <input type="text" readonly class="output" placeholder="estimated salary" name="date" maxlength="20">
+                    <div class="lists">
+                        <p class="items">1 LPA - 5 LPA</p>
+                        <p class="items">5 LPA - 10 LPA</p>
+                        <p class="items">10 LPA - 15 LPA</p>
+                        <p class="items">15 LPA - 20 LPA</p>
+                        <p class="items">20 LPA - 30 LPA</p>
+                        <p class="items">30 LPA - 50 LPA</p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <input type="text" readonly class="output" placeholder="job type" name="date" maxlength="20">
+                    <div class="lists">
+                        <p class="items">full-time</p>
+                        <p class="items">part-time</p>
+                        <p class="items">internship</p>
+                        <p class="items">contract</p>
+                        <p class="items">temporary</p>
+                        <p class="items">fresher</p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <input type="text" readonly class="output" placeholder="education level" name="date" maxlength="20">
+                    <div class="lists">
+                        <p class="items">High School</p>
+                        <p class="items">Diploma</p>
+                        <p class="items">Bachelor Degree</p>
+                        <p class="items">Master Degree</p>
+                        <p class="items">PhD</p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <input type="text" readonly class="output" placeholder="work shift" name="date" maxlength="20">
+                    <div class="lists">
+                        <p class="items">day shift</p>
+                        <p class="items">night shift</p>
+                        <p class="items">fixed shift</p>
+                        <p class="items">flexible shift</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!--job filter ends-->
+
+    <!--job starts-->
+
+    <section class="jobs-container">
+        <h1 class="heading">all jobs</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="company">
+                    <img src="tcs.JPG" alt="">
+                    <div>
+                        <h3>IT infosys co</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">senior web developer</h3>
+                <p class="location">
+                    <i class="fa-solid fa-location-dot"></i>    
+                    <span>mumbai, india</span>
+                </p>
+                <div class="tags">
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i><span>10k - 50k</span></p>
+                    <p><i class="fa-solid fa-briefcase"></i><span>part-time</span></p>
+                    <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="viewjobs.html" class="btn">view details</a>
+                    <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="company">
+                    <img src="tcs.JPG" alt="">
+                    <div>
+                        <h3>IT deloitte co</h3>
+                        <span>3 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">senior java developer</h3>
+                <p class="location">
+                    <i class="fa-solid fa-location-dot"></i>    
+                    <span>kolkata, india</span>
+                </p>
+                <div class="tags">
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i><span>50k - 95k</span></p>
+                    <p><i class="fa-solid fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="viewjobs.html" class="btn">view details</a>
+                    <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="company">
+                    <img src="tcs.JPG" alt="">
+                    <div>
+                        <h3>IT HCL co</h3>
+                        <span>4 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">junior web developer</h3>
+                <p class="location">
+                    <i class="fa-solid fa-location-dot"></i>    
+                    <span>bangalore, india</span>
+                </p>
+                <div class="tags">
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i><span>10k - 50k</span></p>
+                    <p><i class="fa-solid fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="viewjobs.html" class="btn">view details</a>
+                    <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="company">
+                    <img src="tcs.JPG" alt="">
+                    <div>
+                        <h3>IT Zoho co</h3>
+                        <span>4 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">software developer</h3>
+                <p class="location">
+                    <i class="fa-solid fa-location-dot"></i>    
+                    <span>tenkasi, india</span>
+                </p>
+                <div class="tags">
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i><span>40k - 60k</span></p>
+                    <p><i class="fa-solid fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="viewjobs.html" class="btn">view details</a>
+                    <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="company">
+                    <img src="tcs.JPG" alt="">
+                    <div>
+                        <h3>IT Tcs co</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">associate web developer</h3>
+                <p class="location">
+                    <i class="fa-solid fa-location-dot"></i>    
+                    <span>chennai, india</span>
+                </p>
+                <div class="tags">
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i><span>20k - 50k</span></p>
+                    <p><i class="fa-solid fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="viewjobs.html" class="btn">view details</a>
+                    <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="company">
+                    <img src="tcs.JPG" alt="">
+                    <div>
+                        <h3>IT Tcs co</h3>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                <h3 class="job-title">Manager</h3>
+                <p class="location">
+                    <i class="fa-solid fa-location-dot"></i>    
+                    <span>chennai, india</span>
+                </p>
+                <div class="tags">
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i><span>90k - 200k</span></p>
+                    <p><i class="fa-solid fa-briefcase"></i><span>full-time</span></p>
+                    <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                </div>
+                <div class="flex-btn">
+                    <a href="viewjobs.html" class="btn">view details</a>
+                    <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                </div>
+            </div>
+                <div class="box">
+                    <div class="company">
+                        <img src="tcs.JPG" alt="">
+                        <div>
+                            <h3>IT infosys co</h3>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                    <h3 class="job-title">senior web developer</h3>
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>    
+                        <span>mumbai, india</span>
+                    </p>
+                    <div class="tags">
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i><span>10k - 50k</span></p>
+                        <p><i class="fa-solid fa-briefcase"></i><span>part-time</span></p>
+                        <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="viewjobs.html" class="btn">view details</a>
+                        <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                    </div>
+    
+                </div>
+    
+                <div class="box">
+                    <div class="company">
+                        <img src="tcs.JPG" alt="">
+                        <div>
+                            <h3>IT deloitte co</h3>
+                            <span>3 days ago</span>
+                        </div>
+                    </div>
+                    <h3 class="job-title">senior java developer</h3>
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>    
+                        <span>kolkata, india</span>
+                    </p>
+                    <div class="tags">
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i><span>50k - 95k</span></p>
+                        <p><i class="fa-solid fa-briefcase"></i><span>full-time</span></p>
+                        <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="viewjobs.html" class="btn">view details</a>
+                        <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                    </div>
+    
+                </div>
+    
+                <div class="box">
+                    <div class="company">
+                        <img src="tcs.JPG" alt="">
+                        <div>
+                            <h3>IT HCL co</h3>
+                            <span>4 days ago</span>
+                        </div>
+                    </div>
+                    <h3 class="job-title">junior web developer</h3>
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>    
+                        <span>bangalore, india</span>
+                    </p>
+                    <div class="tags">
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i><span>10k - 50k</span></p>
+                        <p><i class="fa-solid fa-briefcase"></i><span>full-time</span></p>
+                        <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="viewjobs.html" class="btn">view details</a>
+                        <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                    </div>
+    
+                </div>
+    
+                <div class="box">
+                    <div class="company">
+                        <img src="tcs.JPG" alt="">
+                        <div>
+                            <h3>IT Zoho co</h3>
+                            <span>4 days ago</span>
+                        </div>
+                    </div>
+                    <h3 class="job-title">software developer</h3>
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>    
+                        <span>tenkasi, india</span>
+                    </p>
+                    <div class="tags">
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i><span>40k - 60k</span></p>
+                        <p><i class="fa-solid fa-briefcase"></i><span>full-time</span></p>
+                        <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="viewjobs.html" class="btn">view details</a>
+                        <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                    </div>
+    
+                </div>
+    
+                <div class="box">
+                    <div class="company">
+                        <img src="tcs.JPG" alt="">
+                        <div>
+                            <h3>IT Tcs co</h3>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                    <h3 class="job-title">associate web developer</h3>
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>    
+                        <span>chennai, india</span>
+                    </p>
+                    <div class="tags">
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i><span>20k - 50k</span></p>
+                        <p><i class="fa-solid fa-briefcase"></i><span>full-time</span></p>
+                        <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="viewjobs.html" class="btn">view details</a>
+                        <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                    </div>
+    
+                </div>
+    
+                <div class="box">
+                    <div class="company">
+                        <img src="tcs.JPG" alt="">
+                        <div>
+                            <h3>IT Tcs co</h3>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                    <h3 class="job-title">Manager</h3>
+                    <p class="location">
+                        <i class="fa-solid fa-location-dot"></i>    
+                        <span>chennai, india</span>
+                    </p>
+                    <div class="tags">
+                        <p><i class="fa-solid fa-indian-rupee-sign"></i><span>90k - 200k</span></p>
+                        <p><i class="fa-solid fa-briefcase"></i><span>full-time</span></p>
+                        <p><i class="fa-solid fa-clock"></i><span>day shift</span></p>
+                    </div>
+                    <div class="flex-btn">
+                        <a href="viewjobs.html" class="btn">view details</a>
+                        <button type="submit" class="fa-regular fa-heart" name="save"></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+ 
+    </section>
+
+    <!--job ends-->
+
+    <!--footer starts-->
+    <footer class="footer">
+        <section class="grid">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Home</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>About Us</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Jobs</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Contact Us</a>   
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Account</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Login</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Register</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Dashboard</a>   
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+                <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+            </div>
+
+            <div class="flex-btn">
+                <a href="culture.html" class="btn">About Japan</a>
+                
+            </div>
+
+        </section>
+
+        <div class="credit">&copy; copyright @2024 by Kanmani Angel | All Rights Reserved</div>
+
+    </footer>
+
+    <!--footer ends-->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
